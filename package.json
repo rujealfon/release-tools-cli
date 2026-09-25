@@ -1,8 +1,13 @@
 {
   "name": "@rujealfon/release-tools-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Release and commit helpers for Git repositories: conventional commits, version bumping, tagging, and optional OpenRouter suggestions.",
   "license": "MIT",
+  "homepage": "https://github.com/rujealfon/release-tools-cli",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rujealfon/release-tools-cli.git"
+  },
   "type": "module",
   "engines": {
     "node": ">=22"
