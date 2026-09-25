@@ -1,11 +1,11 @@
-# release-tools-cli
+# @rujealfon/release-tools-cli
 
 Release and commit helpers for Git repositories. It cuts version tags, drafts Conventional Commits messages, and optionally asks OpenRouter for a suggested version bump.
 
 ## Install
 
 ```sh
-npm install --save-dev release-tools-cli husky
+npm install --save-dev @rujealfon/release-tools-cli husky
 ```
 
 ## Setup

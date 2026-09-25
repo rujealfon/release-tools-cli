@@ -3,7 +3,7 @@ import { join } from 'node:path'
 import process from 'node:process'
 import { repoRoot } from './git.mjs'
 
-const commitlintConfig = `import config from 'release-tools-cli/commitlint'
+const commitlintConfig = `import config from '@rujealfon/release-tools-cli/commitlint'
 
 export default config
 `

@@ -1,5 +1,5 @@
 {
-  "name": "release-tools-cli",
+  "name": "@rujealfon/release-tools-cli",
   "version": "0.1.0",
   "description": "Release and commit helpers for Git repositories: conventional commits, version bumping, tagging, and optional OpenRouter suggestions.",
   "license": "MIT",
@@ -24,6 +24,9 @@
     "README.md",
     "LICENSE"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "release",
     "semver",
