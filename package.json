@@ -1,6 +1,6 @@
 {
   "name": "@rujealfon/release-tools-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Release and commit helpers for Git repositories: conventional commits, version bumping, tagging, and optional OpenRouter suggestions.",
   "license": "MIT",
   "homepage": "https://github.com/rujealfon/release-tools-cli",
@@ -43,6 +43,7 @@
   "dependencies": {
     "@commitlint/cli": "^21.2.3",
     "@commitlint/config-conventional": "^21.2.3",
+    "conventional-changelog-conventionalcommits": "^10.4.0",
     "czg": "^1.14.0"
   }
 }
