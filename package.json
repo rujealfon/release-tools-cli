@@ -1,0 +1,40 @@
+{
+  "name": "release-tools-cli",
+  "version": "0.1.0",
+  "description": "Release and commit helpers for Git repositories: conventional commits, version bumping, tagging, and optional OpenRouter suggestions.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "release": "./bin/release.mjs",
+    "commit": "./bin/commit.mjs",
+    "commit-ai": "./bin/commit-ai.mjs",
+    "release-lint": "./bin/lint.mjs",
+    "release-setup": "./bin/setup.mjs"
+  },
+  "exports": {
+    "./commitlint": "./commitlint.mjs"
+  },
+  "files": [
+    "bin",
+    "src",
+    "commitlint.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "release",
+    "semver",
+    "conventional-commits",
+    "commitlint",
+    "changeset",
+    "openrouter"
+  ],
+  "dependencies": {
+    "@commitlint/cli": "^21.2.3",
+    "@commitlint/config-conventional": "^21.2.3",
+    "czg": "^1.14.0"
+  }
+}
